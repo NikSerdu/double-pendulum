@@ -1,0 +1,47 @@
+main {
+	height: 90vh;
+}
+
+button {
+	background: #3232ff;
+	color: #fff;
+	padding: 10px 30px;
+	border-radius: 20px;
+	font-size: 20px;
+	outline: none;
+	border: none;
+	transition: 0.1s;
+}
+
+button:hover {
+	cursor: pointer;
+	background: blue;
+}
+
+input {
+	border-radius: 20px;
+	padding: 10px 20px;
+	border: 1px solid black;
+}
+
+input:focus {
+	outline: 2px solid #3232ff73;
+}
+
+.wrap {
+	width: 600px;
+	height: 500px;
+	position: absolute;
+}
+
+#chartEnergy {
+	position: absolute;
+	left: 10px;
+	bottom: -40%;
+	right: 10px;
+}
+
+select {
+	border-radius: 20px;
+	padding: 10px 20px;
+}
