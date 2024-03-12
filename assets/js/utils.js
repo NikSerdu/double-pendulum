@@ -73,10 +73,13 @@ function draw_pendulum(cx, cy, l1, l2, a1, a2) {
 	strokeWeight(2)
 	line(cx, cy, x1, y1)
 	fill(0)
+
 	ellipse(x1, y1, m1, m1)
 
+	strokeWeight(2)
 	line(x1, y1, x2, y2)
 	fill(0)
+
 	ellipse(x2, y2, m2, m2)
 }
 

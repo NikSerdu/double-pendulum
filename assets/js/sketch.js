@@ -3,7 +3,7 @@ let l1 = 100 //length
 let l2 = 100
 
 let m1 = 10
-let m2 = 10
+let m2 = 20
 
 let a1_v = 0 //speed
 let a2_v = 0
@@ -97,7 +97,6 @@ function draw() {
 		canvas.stroke(0, 0, 255, 150)
 		canvas.line(px2, py2, x2, y2)
 		queue.push(getTotalEnergy())
-		console.log(queue)
 		labels.push(labels.at(-1) + time_step)
 		if (queue.length >= 11 || labels.length >= 11) {
 			queue.shift()

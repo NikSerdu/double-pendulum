@@ -32,7 +32,8 @@ function rhs(q, L1, L2) {
 				2 * g * cos(q[0]) +
 				q[3] * q[3] * L2 * cos(q[0] - q[1]))) /
 		(L2 * (3 - cos(2 * q[0] - 2 * q[1])))
-	return result
+
+	return result //velocity,velocity,acceleration,acceleration
 }
 
 const lagrange = () => {
